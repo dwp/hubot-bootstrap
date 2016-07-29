@@ -1,0 +1,8 @@
+.DS_Store*
+.editorconfig
+.gitignore
+.hubot_history
+.idea
+Dockerfile
+Procfile
+README.md

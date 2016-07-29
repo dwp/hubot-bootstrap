@@ -1,0 +1,12 @@
+version: '2'
+services:
+  hubot:
+    build: .
+    ports:
+     - "8080:8080"
+    volumes:
+     - .:/opt/hubot
+    depends_on:
+     - redis
+  redis:
+    image: redis
