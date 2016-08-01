@@ -16,7 +16,7 @@ Once you have them installed please complete the following configuration:
 
 ### Running Hubot with Docker
 
-Providing you have docker installed, and have completed the above configuration you can then run the Hubot instance by executing the launch.sh command - this will validate your npm install and run docker-compose which will launch the bot and connect to Slack.
+Providing you have docker installed, and have completed the above configuration you can then run the Hubot instance by executing the `./launch.sh` command - this will validate your npm install and run docker-compose which will launch the bot and connect to Slack.
 
 ### Running Hubot Locally
 
