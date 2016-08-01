@@ -3,3 +3,4 @@
 .hubot_history
 .idea
 node_modules
+/redis

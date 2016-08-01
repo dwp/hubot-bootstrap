@@ -5,10 +5,13 @@ services:
     environment:
       - HUBOT_SLACK_TOKEN
     ports:
-     - "8080:8080"
+      - "8080:8080"
     volumes:
-     - .:/opt/hubot
+      - .:/opt/hubot
     depends_on:
-     - redis
+      - redis
   redis:
     image: redis
+    command: redis-server --appendonly yes
+    volumes:
+     - ./redis:/data
