@@ -5,7 +5,7 @@
   "author": "Jonty Bale <jontybale@gmail.com>",
   "description": "A simple helpful robot for your Company",
   "dependencies": {
-    "hubot": "^2.19.0",
+    "hubot": "^3.5.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-help": "^0.2.0",
     "hubot-maps": "0.0.2",
